@@ -1,0 +1,31 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.scroll-to-top {
+  padding: 5px;
+  position: fixed;
+  bottom: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #0B24FB;
+  color: #fff;
+  left: 50%;
+  z-index: 999;
+}
+
+.scroll-to-top .icon {
+  font-size: 24px;
+  animation: scrolltop 0.5s alternate ease infinite;
+}
+
+@keyframes scrolltop {
+  from {
+    transform: translateY(2px);
+  }
+
+  to {
+    transform: translateY(-1px);
+  }
+}

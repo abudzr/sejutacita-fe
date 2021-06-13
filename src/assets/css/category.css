@@ -1,0 +1,165 @@
+.category {
+    height: max-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #fff;
+    position: relative;
+}
+
+.category h2 {
+    font-size: 32px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.category p {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.64px;
+    text-align: left;
+    color: #000;
+}
+
+.category span {
+    width: 218px;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.57px;
+    color: #fff;
+}
+
+
+.category h2.link-article {
+    font-size: 24px;
+}
+
+.articles {
+    display: flex;
+}
+
+.card-help {
+    position: relative;
+    z-index: 99;
+    width: 311px;
+    height: 176px;
+    margin-top: 15px;
+}
+
+.rectangle-card-help {
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 311px;
+    height: 72px;
+    opacity: 0.5;
+    background-color: #000000;
+}
+
+.list-category {
+    width: 100%;
+}
+
+.menu-item {
+    padding: 0 40px;
+    margin: 5px 10px;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+}
+
+.menu-item-wrapper:hover {
+    border-radius: 15px;
+    background: #eee;
+
+}
+
+.menu-item-wrapper.active {
+    background: #292929;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.menu-item.active {
+    color: #fff;
+}
+
+.scroll-menu-arrow {
+    padding: 20px;
+    cursor: pointer;
+}
+
+@media(max-width: 576px) {
+    .category {
+        width: 100vw;
+        height: max-content;
+    }
+
+    .category h2 {
+        text-align: left;
+        padding: 0px;
+        font-size: 24px;
+    }
+
+    .category p {
+        padding-left: 0;
+        font-size: 16px;
+        letter-spacing: -0.57px;
+        /* padding: 0px 20px; */
+        text-align: left;
+    }
+
+    .card-help {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .articles {
+        display: inline;
+    }
+
+    .img-article {
+        width: 250px;
+    }
+
+    .category h2.link-article {
+        padding-left: 0px;
+        font-size: 12px;
+        margin-top: -25px;
+    }
+}
+
+@media (min-width: 576px)and (max-width:768px) {
+    .category h2 {
+        text-align: left;
+        padding: 0px 20px;
+    }
+
+    .category p {
+        padding: 0;
+        font-size: 16px;
+        letter-spacing: -0.57px;
+        padding: 0px 20px;
+        text-align: left;
+    }
+
+    .card-help {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-article {
+        width: 300px;
+    }
+
+}

@@ -1,0 +1,13 @@
+.rectangle {
+    width: 100%;
+    height: 90px;
+    padding-top: 3vh;
+    background: #fff;
+}
+
+
+@media (max-width: 576px) {
+    .rectangle {
+        width: 100vw;
+    }
+}

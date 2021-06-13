@@ -1,0 +1,95 @@
+.hero {
+    position: relative;
+    width: 100%;
+    height: 732px;
+    background: #eebece;
+}
+
+.bgHome {
+    width: 100%;
+    object-fit: contain;
+}
+
+.title-hero {
+    position: absolute;
+    top: 110px;
+    left: 45%;
+    transform: translate(-35%);
+
+    /* font */
+    font-size: 62px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.subtitle-hero {
+    position: absolute;
+    top: 190px;
+    left: 50%;
+    transform: translate(-35%);
+
+    /* font */
+    font-size: 21px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.lego {
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    transform: translate(-35%);
+}
+
+@media (max-width: 576px) {
+    .hero {
+        width: 100vw;
+        height: 600px;
+        background-color: #eebece;
+        background-image: url("../img/bg-mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bgHome {
+        display: none;
+    }
+
+    .title-hero {
+        left: 10%;
+        transform: translate(-5%);
+
+        font-size: 52px;
+        line-height: 0.98;
+    }
+
+    .subtitle-hero {
+        top: 240px;
+        left: 25%;
+        transform: translate(-5%);
+
+        font-size: 16px;
+    }
+
+    .lego {
+        top: 280px;
+        left: 30%;
+        transform: translate(-5%);
+    }
+}
+
+@media (min-width: 576px)and (max-width:768px) {
+    .subtitle-hero {
+        top: 270px;
+    }
+}

@@ -1,0 +1,53 @@
+.bookmark-page {
+    height: 100vmax;
+    background: #eee;
+    padding: 20px;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.f-18 {
+    font-size: 18px;
+}
+
+.round {
+    border-radius: 25px !important;
+}
+
+.delete {
+    color: red;
+}
+
+.card-shadow {
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+}
+
+
+.radius-50 {
+    border-radius: 50%;
+}
+
+.btn-grup {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.btn-active {
+    background: #eee;
+    color: white;
+}
+
+.button {
+    transition-duration: 0.4s;
+}
+
+.btn-hover:hover {
+    background-color: rgba(219, 48, 34, 0.95) !important;
+}

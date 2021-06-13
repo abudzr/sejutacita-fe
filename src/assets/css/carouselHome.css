@@ -1,0 +1,62 @@
+.carousel-home {
+    height: max-content;
+    background-color: #F4F4F4;
+    padding-bottom: 20px;
+}
+
+.carousel-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 1px 0px #fff;
+}
+
+.rec.rec-arrow:hover {
+    background: #00001A !important;
+    color: #fff;
+}
+
+.carousel-testimoni h2 {
+    font-size: 32px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.carousel-testimoni p {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.43px;
+    color: #000000;
+}
+
+
+@media (max-width: 576px) {
+
+    .carousel-home {
+        width: 100vw;
+    }
+
+    .carousel-wrapper {
+        margin-top: -30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 576px)and (max-width:768px) {
+    .carousel-wrapper {
+        margin-top: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
